@@ -35,5 +35,10 @@ public class Model {
         return firstLetter;
     }
     /*Przypomnieć metode builder dla konstruktora i compareTo dla sortowania*/
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }
 
