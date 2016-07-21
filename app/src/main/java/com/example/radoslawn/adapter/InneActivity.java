@@ -10,6 +10,8 @@ import java.util.List;
 
 public class InneActivity extends AppCompatActivity {
 
+    int a = 2;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
