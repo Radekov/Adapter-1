@@ -8,6 +8,8 @@ public class Model {
     String title= null;
     String discribe = null;
     Character firstLetter = null;
+    /*Test*/
+    int a = 0;
 
     public Model(int img, String s1, String s2) {
         this.img_id = img;
@@ -40,5 +42,6 @@ public class Model {
     public String toString() {
         return super.toString();
     }
+
 }
 
